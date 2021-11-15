@@ -17,6 +17,6 @@ resource "aws_instances" "tfInstance" {
 }
 
 tags = {
-	Name = "TfInstance"
-	ManagedBy = "Terraform"
+	Name 				= "TfInstance"
+	ManagedBy 			= "Terraform"
 }
