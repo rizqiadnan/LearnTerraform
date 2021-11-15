@@ -11,7 +11,7 @@ provider "aws" {
 	region = "ap-southeast-1"
 }
 
-resource "aws_instances" "tfInstance" {
+resource "aws_instance" "tfInstance" {
 	ami				= "ami-0907c2c44ea451f84"
 	instance_type	= "t2.micro"		
 
